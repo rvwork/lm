@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <virtualType name="Globa\Api\Model\ResourceModel\Data\Collection" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+        <arguments>
+            <argument name="mainTable" xsi:type="string">custom_global_api_items</argument>
+            <argument name="resourceModel" xsi:type="string">Globa\Api\Model\ResourceModel\Data</argument>
+        </arguments>
+    </virtualType>
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="global_index_grid_data_source" xsi:type="string">Globa\Api\Model\ResourceModel\Data\Collection</item>
+            </argument>
+        </arguments>
+    </type>
+</config>

@@ -1,0 +1,144 @@
+<?php
+ 
+namespace Globa\Api\Controller\Index;
+
+use Magento\Framework\App\Action;
+
+class Index extends Action\Action
+{
+	
+	 protected $parser;
+	 protected $store;
+	 protected $key = 'key';
+	 protected $item_id = 'ItemId';
+	 protected $_scopeConfig;
+	 protected $equal = '=';
+	 protected $json_encode;
+	 protected $decode;
+	 protected $sbdid;
+	 protected $img;
+	 protected $name;
+	 protected $pdate;
+	 protected $arrData;
+	 protected $dataFactory;
+	 protected $featureFactory;
+	 protected $specsFactory;
+	 
+	 public function __construct(
+	    Action\Context $context,
+	   \Magento\Framework\Xml\Parser $parser,
+	   \Magento\Framework\App\Config\ScopeConfigInterface $scopeConfigInterface,
+	   \Magento\Framework\Json\Encoder $json_encode,
+	   \Magento\Framework\Json\Decoder $decode,
+	   \Globa\Api\Model\DataFactory $data,
+	   \Globa\Api\Model\FeatureFactory $featureFactory,
+	   \Globa\Api\Model\SpecsFactory $specsFactory,
+	  \Magento\Store\Model\StoreManagerInterface $store
+	  )
+	  {
+	  parent::__construct($context);
+	  $this->parser = $parser;
+	  $this->store = $store;
+	  $this->dataFactory = $data;
+	  $this->_scopeConfig = $scopeConfigInterface;
+	  $this->json_encode = $json_encode;
+	  $this->decode = $decode;
+	  $this->featureFactory = $featureFactory;
+	  $this->specsFactory = $specsFactory;
+	  }
+	 public function execute()
+		{
+			$itemUrl = $this->_scopeConfig->getValue('Global/api_setting/global_api_item', \Magento\Store\Model\ScopeInterface::SCOPE_STORE);
+			$productUrl = $this->_scopeConfig->getValue('Global/api_setting/global_api_Product', \Magento\Store\Model\ScopeInterface::SCOPE_STORE);
+			$key = $this->_scopeConfig->getValue('Global/api_setting/global_api_key', \Magento\Store\Model\ScopeInterface::SCOPE_STORE);
+			$service_url = $itemUrl.'?'.$this->key.$this->equal.$key;
+			$parsedArray = $this->parser->load($service_url)->xmlToArray();
+			
+			$data = $parsedArray['output']['structure_groups']['_value']['structure_groups'][1]['_value']['structure_groups'][0]['_value']['structure_groups'];
+			for($i=0;$i<=count($data);$i++)
+			{
+				$itemId = 282764; //$data[$i]['_value']['product']['item_id'];
+				$productDetailsUrl = $productUrl.'?'.$this->key.$this->equal.$key.'&'.$this->item_id.$this->equal.$itemId;
+				$productDetails = $this->parser->load($productDetailsUrl)->xmlToArray();
+				$jsonData = $this->json_encode->encode($productDetails,true);
+				$decodData = $this->decode->decode($jsonData);
+				$this->arrData = $decodData['output']['contents'];
+				$this->sbdid =$this->arrData['sdb_id'];
+				$this->name = $this->arrData['name'];
+				$this->pdate = $this->arrData['published_date'];
+				$this->img = $this->arrData['main_images']['main_image']['url'];
+			}
+				if(!empty($this->arrData['features']))
+				{
+					if(is_array($this->arrData['features']))
+					{
+						for($k=0;$k<count($this->arrData['features']['feature']);$k++)
+						{
+						  $head = $this->arrData['features']['feature'][$k]['heading'];
+						  $dec = $this->arrData['features']['feature'][$k]['descriptions']['description'];
+						  // $featureModel = $this->_objectManager->create('Globa\Api\Model\Feature');
+						  // $featureModel->setItemId($itemId);
+						  // $featureModel->setHeading($head);
+						  // $featureModel->setDescription($dec);
+						  // $featureModel->save();
+						  
+						}
+					}
+				}
+						
+				if(!empty($this->arrData['specs']))
+				{		
+						if(is_array($this->arrData['specs']))
+						{
+							$spe = $this->arrData['specs']['spec_details']['spec_detail'];
+							for($j=0;$j<count($spe);$j++)
+							{
+								$specHowner = $spe[$j]['spec_node']['spec_node_owner'];
+								$spec1 = $spe[$j]['spec_node']['spec_l1'];
+								$spec2 = $spe[$j]['spec_node']['spec_l2'];
+								$spec3 = $spe[$j]['spec_node']['spec_l3'];
+								$specValue = $spe[$j]['spec_value'];
+								// $specsModel = $this->_objectManager->create('Globa\Api\Model\Specs');
+								// $specsModel->setItemId($itemId);
+								// $specsModel->setSpecsNodeOnwer($specHowner);
+								// $specsModel->setSpecsl1($spec1);
+								// $specsModel->setSpecsl2($spec2);
+								// $specsModel->setSpecsl3($spec3);
+								// $specsModel->setSpecsValue($specValue);
+								// $specsModel->save();
+							}
+						}
+				}
+				
+				$model = $this->_objectManager->create('Globa\Api\Model\Data');
+				$model->setItemCode($itemId);
+				$model->setSbdId($this->sbdid);
+				$model->setName($this->name);
+				$model->setDate($this->pdate);
+				$model->setImg($this->img);
+				$model->save();
+				echo "----------------------------end of loop----------------------------------------------";
+		}
+	
+	public function getItemCode($name)
+	{
+			$dataModel = $this->dataFactory->create();
+			$item = $dataModel->load('MX-A5000','name');
+			return $item['item_code'];
+	}
+	public function  getFeatures($item)
+	{
+			$dataArray = array();
+			$featureModel = $this->featureFactory->create();
+			$output = $featureModel->load($item,'item_id');
+			return count($output);
+			// for($i=0;$i<count($output);$i++)
+			// {
+				// $dataArray = $output['heading'];
+				// $dataArray = $output['description'];
+			// }
+			//return $dataArray;
+	
+	}
+
+}

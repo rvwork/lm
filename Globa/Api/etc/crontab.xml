@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Cron:etc/crontab.xsd">
+    <group id="default"> 
+        <job name="global_api" instance="Globa\Api\Controller\Index\Index" method="execute">
+            <schedule>* * * * *</schedule>
+        </job>
+		<job name="global_data" instance="Globa\Api\Controller\Index\DataCollect" method="execute">
+            <schedule>* * * * *</schedule>
+        </job>
+    </group>
+</config>
