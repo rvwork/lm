@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<output>
+<general>
+  <locale>en_CA</locale>
+</general>
+<contents>
+  <sdb_id>1991865</sdb_id>
+  <admin_name>A-S301 COLOR VARIATION</admin_name>
+  <filesystem_name>a-s301</filesystem_name>
+  <name>A-S301</name>
+  <product_name_description></product_name_description>
+  <published_date>2015/10/06 11:18:41</published_date>
+  <positioning_statement>Designed for excellent sound quality, with a beautiful appearance.An integrated amplifier with the advantage of digital input.</positioning_statement>
+  <main_images>
+    <main_image>
+      <asset_id>1995570</asset_id>
+      <url>http://ca.yamaha.com/en/files/74AB91CEA68A453DA0C9DD879EDCF996_12073_1000x400_2c06d4e9e81d896b5380f79dfd02f67a.jpg</url>
+      <alt>Silver</alt>
+    </main_image>
+    <main_image>
+      <asset_id>1995578</asset_id>
+      <url>http://ca.yamaha.com/en/files/4F605F42A36643E7BDFD82526A10C88E_12073_1000x400_5a7fe49dfe02a73c354bc01a46c1d07a.jpg</url>
+      <alt>Black</alt>
+    </main_image>
+    <main_image>
+      <asset_id>1995570</asset_id>
+      <url>http://ca.yamaha.com/en/files/74AB91CEA68A453DA0C9DD879EDCF996_12073_1000x400_20d3deb6a077aafb852ec1ba35be3ed7.jpg</url>
+      <alt></alt>
+    </main_image>
+  </main_images>
+  <image_for_index>
+    <asset_id>1995570</asset_id>
+    <url>http://ca.yamaha.com/en/files/74AB91CEA68A453DA0C9DD879EDCF996_12073_540x540_1403146cbc778ff95a9ce569fae39d4c.jpg</url>
+    <alt></alt>
+  </image_for_index>
+  <product_logo>
+    <asset_id></asset_id>
+    <url></url>
+    <alt></alt>
+  </product_logo>
+  <show_new_until></show_new_until>
+  <sold_type>Not display</sold_type>
+  <sold_from></sold_from>
+  <sold_until></sold_until>
+  <selling_period></selling_period>
+  <price_type>Not display</price_type>
+  <price_net></price_net>
+  <price_with_tax></price_with_tax>
+  <price_free_text></price_free_text>
+  <overview>
+    <catch_copy></catch_copy>
+    <overview_image>
+      <asset_id></asset_id>
+      <url></url>
+      <alt></alt>
+    </overview_image>
+    <overview_movie>
+      <youtube_video>
+        <movie_name></movie_name>
+        <description></description>
+        <id></id>
+        <parameters></parameters>
+      </youtube_video>
+      <paragon_video>
+        <movie_name></movie_name>
+        <description></description>
+        <id></id>
+        <c></c>
+        <d></d>
+      </paragon_video>
+    </overview_movie>
+    <overviews>
+    </overviews>
+    <bullet_points>
+      <bullet_point>ToP-ART (Total Purity Audio Reproduction Technology) and high quality parts</bullet_point>
+      <bullet_point>- I/O (input to output) Direct Symmetrical Design</bullet_point>
+      <bullet_point>- ART (Anti-Resolution and Tough) Base</bullet_point>
+      <bullet_point>- Custom-made power transformer / 6,800uF block capacitors / Aluminum-extruded heat sinks</bullet_point>
+      <bullet_point>95W x 2 (max), 60W x 2 (RMS) high power output</bullet_point>
+      <bullet_point>Pure Direct Mode for Greater Sound Purity</bullet_point>
+      <bullet_point>Continuous Variable Loudness Control</bullet_point>
+      <bullet_point>Digital audio inputs for TV or Blu-ray Player</bullet_point>
+      <bullet_point>Connection for YBA-11 Bluetooth Wireless Adapter</bullet_point>
+      <bullet_point>Simple yet sophisticated design (aluminium front panel and knobs)</bullet_point>
+      <bullet_point>Auto Power Standby</bullet_point>
+    </bullet_points>
+    <tags>
+      <tag>
+        <tag_name>ToP-ART</tag_name>
+        <description>When processing and transmission of the audio signal is simple and direct there is less chance of it being affected by noise and distortion. Yamaha’s amplifier design technology called ToP-ART (Total Purity Audio Reproduction Technology) features I/O (input to output) Direct Symmetrical Design, with left and right channels organized in a straight, symmetrical layout for highest signal purity.</description>
+        <image_icon>
+          <asset_id></asset_id>
+          <url>http://ca.yamaha.com/en/files/E11A3C4C1C6B4CE6AABCD94F5D4D30D5_12024_80x30_71acb2510638ec110d5777fd8f3c5625.jpg</url>
+          <alt></alt>
+        </image_icon>
+      </tag>
+    </tags>
+    <award_tags>
+    </award_tags>
+  </overview>
+  <color_variations>
+    <color_variation>
+      <color_name>Silver</color_name>
+      <color_swatch>
+        <asset_id>1995570</asset_id>
+        <url>http://ca.yamaha.com/en/files/74AB91CEA68A453DA0C9DD879EDCF996_12073_60x60_2c06d4e9e81d896b5380f79dfd02f67a.jpg</url>
+        <alt>Silver</alt>
+      </color_swatch>
+    </color_variation>
+    <color_variation>
+      <color_name>Black</color_name>
+      <color_swatch>
+        <asset_id>1995578</asset_id>
+        <url>http://ca.yamaha.com/en/files/4F605F42A36643E7BDFD82526A10C88E_12073_60x60_5a7fe49dfe02a73c354bc01a46c1d07a.jpg</url>
+        <alt>Black</alt>
+      </color_swatch>
+    </color_variation>
+  </color_variations>
+  <features>
+    <feature>
+      <heading>High sound quality circuit design based on the ToP-ART (Total Purity Audio Reproduction Technology) concept</heading>
+      <descriptions>
+        <description>ToP-ART Design and ART Base Ensure Optimum Sound When processing and transmission of the audio signal is simple and direct there is less chance of it being affected by noise and distortion. Yamaha’s amplifier design technology called ToP-ART features an I/O (input to output) Direct Symmetrical Design, with left and right channels organised in a straight, symmetrical layout for highest signal purity. In addition, the ART (Anti-Resonance and Tough) Base bottom chassis and a solid centre bar provide high-rigidity support and vibration damping. These Yamaha design innovations contribute to this amplifiers’ rich audio reproduction with abundant musicality.</description>
+      </descriptions>
+      <images>
+        <image>
+          <asset_id>2003247</asset_id>
+          <url>http://ca.yamaha.com/en/files/2FDF91EF0BD34B2D91DECC92B0C6FACB_12074_240x197_f2dc0a19257819c75f9d36922a704634.jpg</url>
+          <alt></alt>
+        </image>
+      </images>
+      <image_size>3 Medium</image_size>
+      <image_size_specific_width></image_size_specific_width>
+      <image_size_specific_height></image_size_specific_height>
+      <target_blank></target_blank>
+      <movie>
+        <youtube_video>
+          <movie_name></movie_name>
+          <description></description>
+          <id></id>
+          <parameters></parameters>
+        </youtube_video>
+        <paragon_video>
+          <movie_name></movie_name>
+          <description></description>
+          <id></id>
+          <c></c>
+          <d></d>
+        </paragon_video>
+      </movie>
+      <links>
+      </links>
+    </feature>
+    <feature>
+      <heading>High Quality Parts for Outstanding Audio Performance</heading>
+      <descriptions>
+        <description>Custom-made power transformer, custom-made block capacitors, two direct signal path speaker relays, one-point grounding system, aluminium-extruded heat sinks and other top-quality parts effortlessly handle demanding audio signal conditions. The quality of each individual part, as well as how they work together, basically determines the sound quality of any component. Yamaha uses only very high quality parts, carefully selected and tested.</description>
+      </descriptions>
+      <images>
+        <image>
+          <asset_id>2003252</asset_id>
+          <url>http://ca.yamaha.com/en/files/D9C01E931616453C9A6778066863E33F_12074_240x155_f2e0dacffc838320b208e4de36607140.jpg</url>
+          <alt></alt>
+        </image>
+      </images>
+      <image_size>3 Medium</image_size>
+      <image_size_specific_width></image_size_specific_width>
+      <image_size_specific_height></image_size_specific_height>
+      <target_blank></target_blank>
+      <movie>
+        <youtube_video>
+          <movie_name></movie_name>
+          <description></description>
+          <id></id>
+          <parameters></parameters>
+        </youtube_video>
+        <paragon_video>
+          <movie_name></movie_name>
+          <description></description>
+          <id></id>
+          <c></c>
+          <d></d>
+        </paragon_video>
+      </movie>
+      <links>
+      </links>
+    </feature>
+    <feature>
+      <heading>Created by Yamaha&#39;s Rich Experience and Tradition, and High Technological Expertise</heading>
+      <descriptions>
+        <description>Yamaha, with a long history of over 125 years as a musical instrument maker, also has a high reputation for HiFi components. The A-S301 is created by taking advantage of this rich experience and high technological expertise. Based on the concept of “Natural Sound”, for reproducing all music as it really sounds, and built with scrupulous care from circuit design to basic sound production, even though an entry model it reproduces high sound quality and musically rich sound.</description>
+      </descriptions>
+      <images>
+      </images>
+      <image_size>3 Medium</image_size>
+      <image_size_specific_width></image_size_specific_width>
+      <image_size_specific_height></image_size_specific_height>
+      <target_blank></target_blank>
+      <movie>
+        <youtube_video>
+          <movie_name></movie_name>
+          <description></description>
+          <id></id>
+          <parameters></parameters>
+        </youtube_video>
+        <paragon_video>
+          <movie_name></movie_name>
+          <description></description>
+          <id></id>
+          <c></c>
+          <d></d>
+        </paragon_video>
+      </movie>
+      <links>
+      </links>
+    </feature>
+    <feature>
+      <heading>Pure Direct Mode for Greater Sound Purity</heading>
+      <descriptions>
+        <description>The Pure Direct mode causes the music signals to travel the shortest possible circuit route, bypassing the buffer amp and the tone, loudness and balance controls to virtually eliminate any signal degradation for the purest sound quality.</description>
+      </descriptions>
+      <images>
+        <image>
+          <asset_id>2003258</asset_id>
+          <url>http://ca.yamaha.com/en/files/13007927BC4F4DD28C5BE692A9A5F103_12074_740x150_35bc275ab7602d46e91adcd13b3b1ca3.jpg</url>
+          <alt></alt>
+        </image>
+      </images>
+      <image_size>1 Raw</image_size>
+      <image_size_specific_width></image_size_specific_width>
+      <image_size_specific_height></image_size_specific_height>
+      <target_blank></target_blank>
+      <movie>
+        <youtube_video>
+          <movie_name></movie_name>
+          <description></description>
+          <id></id>
+          <parameters></parameters>
+        </youtube_video>
+        <paragon_video>
+          <movie_name></movie_name>
+          <description></description>
+          <id></id>
+          <c></c>
+          <d></d>
+        </paragon_video>
+      </movie>
+      <links>
+      </links>
+    </feature>
+    <feature>
+      <heading>Continuously Variable Loudness Control</heading>
+      <descriptions>
+        <description>The A-S301 also feature a new analogue loudness control on the front panel that uses electronic volume for higher sound quality, which lets you adjust the loudness effect as desired. Separate from the overall volume, this controls the balance of the low- and high- frequency sounds, providing full tonal range at any volume level, compensating for the natural loss in the human ear of high and low frequencies at soft levels.</description>
+      </descriptions>
+      <images>
+        <image>
+          <asset_id>2003263</asset_id>
+          <url>http://ca.yamaha.com/en/files/95D491175D6D47049B2C9932C51C3874_12074_140x131_a133307c3cb8ff7865cf7461601706f5.jpg</url>
+          <alt></alt>
+        </image>
+      </images>
+      <image_size>2 Small</image_size>
+      <image_size_specific_width></image_size_specific_width>
+      <image_size_specific_height></image_size_specific_height>
+      <target_blank></target_blank>
+      <movie>
+        <youtube_video>
+          <movie_name></movie_name>
+          <description></description>
+          <id></id>
+          <parameters></parameters>
+        </youtube_video>
+        <paragon_video>
+          <movie_name></movie_name>
+          <description></description>
+          <id></id>
+          <c></c>
+          <d></d>
+        </paragon_video>
+      </movie>
+      <links>
+      </links>
+    </feature>
+    <feature>
+      <heading>Digital Audio Input for TV and/or Blu-ray Player</heading>
+      <descriptions>
+        <description>The A-S301 is equipped for digital audio input with both optical and coaxial terminals. The optical is for receiving audio from a TV, and the coaxial for receiving audio from a Blu-ray player. The audio stays in the digital domain, giving you pure, pristine dynamic sound for all your entertainment sources, from sports and other programmes to movies and concerts.</description>
+      </descriptions>
+      <images>
+        <image>
+          <asset_id>2003273</asset_id>
+          <url>http://ca.yamaha.com/en/files/24E96E68E16D4236B8DB660CF8641356_12074_240x154_1620766637de88b266b58be9971aecef.jpg</url>
+          <alt></alt>
+        </image>
+      </images>
+      <image_size>3 Medium</image_size>
+      <image_size_specific_width></image_size_specific_width>
+      <image_size_specific_height></image_size_specific_height>
+      <target_blank></target_blank>
+      <movie>
+        <youtube_video>
+          <movie_name></movie_name>
+          <description></description>
+          <id></id>
+          <parameters></parameters>
+        </youtube_video>
+        <paragon_video>
+          <movie_name></movie_name>
+          <description></description>
+          <id></id>
+          <c></c>
+          <d></d>
+        </paragon_video>
+      </movie>
+      <links>
+      </links>
+    </feature>
+    <feature>
+      <heading>Connection for YBA-11 Bluetooth Wireless Adapter</heading>
+      <descriptions>
+        <description>With the YBA-11, you’ll be able to stream music wirelessly from a Bluetooth capable mobile phone or a PC to the Network receiver. Thanks to the digital connection and aptX® audio coding algorithm, you’ll enjoy wireless music streaming with optimum sound quality. You can also conveniently power the YBA-11 via the DC-out connection on the rear panel of the amplifier.</description>
+      </descriptions>
+      <images>
+        <image>
+          <asset_id>2003278</asset_id>
+          <url>http://ca.yamaha.com/en/files/79AD17C6FD354478B9A3C473FD46CF25_12074_740x150_980bdba7cb62ae8818aade1fd58c47d1.jpg</url>
+          <alt></alt>
+        </image>
+      </images>
+      <image_size>1 Raw</image_size>
+      <image_size_specific_width></image_size_specific_width>
+      <image_size_specific_height></image_size_specific_height>
+      <target_blank></target_blank>
+      <movie>
+        <youtube_video>
+          <movie_name></movie_name>
+          <description></description>
+          <id></id>
+          <parameters></parameters>
+        </youtube_video>
+        <paragon_video>
+          <movie_name></movie_name>
+          <description></description>
+          <id></id>
+          <c></c>
+          <d></d>
+        </paragon_video>
+      </movie>
+      <links>
+      </links>
+    </feature>
+    <feature>
+      <heading>Speaker A, B or A+B Selection and Speaker Terminals for Two Systems</heading>
+      <descriptions>
+        <description>You can connect two separate speaker systems in different rooms and switch between them, or have them both playing at the same time. There are four terminals, so by just pushing a button, you can switch speakers to match the sound source.</description>
+      </descriptions>
+      <images>
+        <image>
+          <asset_id>2003283</asset_id>
+          <url>http://ca.yamaha.com/en/files/433D609750C74B55BFEBD8A04692522E_12074_140x135_458a15a7b957bcb7bf3a6a39e462233f.jpg</url>
+          <alt></alt>
+        </image>
+      </images>
+      <image_size>2 Small</image_size>
+      <image_size_specific_width></image_size_specific_width>
+      <image_size_specific_height></image_size_specific_height>
+      <target_blank></target_blank>
+      <movie>
+        <youtube_video>
+          <movie_name></movie_name>
+          <description></description>
+          <id></id>
+          <parameters></parameters>
+        </youtube_video>
+        <paragon_video>
+          <movie_name></movie_name>
+          <description></description>
+          <id></id>
+          <c></c>
+          <d></d>
+        </paragon_video>
+      </movie>
+      <links>
+      </links>
+    </feature>
+    <feature>
+      <heading>Subwoofer Terminal</heading>
+      <descriptions>
+        <description>A terminal for connecting a subwoofer is provided, allowing you to increase the bass output of your system for a more powerful sound with better overall sound quality.</description>
+      </descriptions>
+      <images>
+      </images>
+      <image_size>3 Medium</image_size>
+      <image_size_specific_width></image_size_specific_width>
+      <image_size_specific_height></image_size_specific_height>
+      <target_blank></target_blank>
+      <movie>
+        <youtube_video>
+          <movie_name></movie_name>
+          <description></description>
+          <id></id>
+          <parameters></parameters>
+        </youtube_video>
+        <paragon_video>
+          <movie_name></movie_name>
+          <description></description>
+          <id></id>
+          <c></c>
+          <d></d>
+        </paragon_video>
+      </movie>
+      <links>
+      </links>
+    </feature>
+    <feature>
+      <heading>Phono MM Terminal</heading>
+      <descriptions>
+        <description>You can connect a turntable with an MM phono cartridge to play vinyl records. This lets you enjoy not only CDs, but also analogue record sound from an amp with the latest digital/analogue technology.</description>
+      </descriptions>
+      <images>
+      </images>
+      <image_size>3 Medium</image_size>
+      <image_size_specific_width></image_size_specific_width>
+      <image_size_specific_height></image_size_specific_height>
+      <target_blank></target_blank>
+      <movie>
+        <youtube_video>
+          <movie_name></movie_name>
+          <description></description>
+          <id></id>
+          <parameters></parameters>
+        </youtube_video>
+        <paragon_video>
+          <movie_name></movie_name>
+          <description></description>
+          <id></id>
+          <c></c>
+          <d></d>
+        </paragon_video>
+      </movie>
+      <links>
+      </links>
+    </feature>
+    <feature>
+      <heading>Simple yet Sophisticated Design</heading>
+      <descriptions>
+        <description>With a beautifully simple and unique design inherited directly from Yamaha’s HiFi audio components, this amplifier also boast an easy-to-operate button layout. The aluminium front panel has a richly textured silver hairline finish. The control knobs are also of the same luxurious construction as used on our top-end models.</description>
+      </descriptions>
+      <images>
+        <image>
+          <asset_id>2003290</asset_id>
+          <url>http://ca.yamaha.com/en/files/78263A319C96408AAC09B7C1E614CCC2_12074_140x95_823a086f6b302f200b117c4599abd499.jpg</url>
+          <alt></alt>
+        </image>
+      </images>
+      <image_size>2 Small</image_size>
+      <image_size_specific_width></image_size_specific_width>
+      <image_size_specific_height></image_size_specific_height>
+      <target_blank></target_blank>
+      <movie>
+        <youtube_video>
+          <movie_name></movie_name>
+          <description></description>
+          <id></id>
+          <parameters></parameters>
+        </youtube_video>
+        <paragon_video>
+          <movie_name></movie_name>
+          <description></description>
+          <id></id>
+          <c></c>
+          <d></d>
+        </paragon_video>
+      </movie>
+      <links>
+      </links>
+    </feature>
+    <feature>
+      <heading>Remote Control with Clean, Simple Design</heading>
+      <descriptions>
+        <description>The clean, simple design of the remote control provides easy-to-understand one-hand operation. The easy-to-use design makes it simple to adjust song volume and order. The unit has a sophisticated looking hairline finish that matches the design of the amplifiers. You can also use the remote to control a Yamaha CD player.</description>
+      </descriptions>
+      <images>
+        <image>
+          <asset_id>2003295</asset_id>
+          <url>http://ca.yamaha.com/en/files/9991967C01944C569E90A3B273F05244_12074_140x140_fcc7dfcaca6fa136b2599ce1bf6e6012.jpg</url>
+          <alt></alt>
+        </image>
+      </images>
+      <image_size>2 Small</image_size>
+      <image_size_specific_width></image_size_specific_width>
+      <image_size_specific_height></image_size_specific_height>
+      <target_blank></target_blank>
+      <movie>
+        <youtube_video>
+          <movie_name></movie_name>
+          <description></description>
+          <id></id>
+          <parameters></parameters>
+        </youtube_video>
+        <paragon_video>
+          <movie_name></movie_name>
+          <description></description>
+          <id></id>
+          <c></c>
+          <d></d>
+        </paragon_video>
+      </movie>
+      <links>
+      </links>
+    </feature>
+    <feature>
+      <heading>Rotary Encoder Input Selector with LEDs</heading>
+      <descriptions>
+        <description>The rotary encoder makes it quick and easy to select input sources. The luxury hairline finish material offers a nice tactile feeling. LEDs clearly show which source is selected, so you can easily switch sources even in a dark room.</description>
+      </descriptions>
+      <images>
+      </images>
+      <image_size>3 Medium</image_size>
+      <image_size_specific_width></image_size_specific_width>
+      <image_size_specific_height></image_size_specific_height>
+      <target_blank></target_blank>
+      <movie>
+        <youtube_video>
+          <movie_name></movie_name>
+          <description></description>
+          <id></id>
+          <parameters></parameters>
+        </youtube_video>
+        <paragon_video>
+          <movie_name></movie_name>
+          <description></description>
+          <id></id>
+          <c></c>
+          <d></d>
+        </paragon_video>
+      </movie>
+      <links>
+      </links>
+    </feature>
+    <feature>
+      <heading>Auto Power Standby Function</heading>
+      <descriptions>
+        <description>The amplifier has a power management function that detects when it hasn&#39;t been used for a long time (about 8 hours) even though the power is on, and automatically shifts it into standby mode. So even if you forget to turn it off, power consumption will be minimised.</description>
+      </descriptions>
+      <images>
+        <image>
+          <asset_id>2003301</asset_id>
+          <url>http://ca.yamaha.com/en/files/D5BF95F4521B4729B093A3D7D1F961AB_12074_140x140_a0ce67cca02ad78140878ef1790aa2b4.jpg</url>
+          <alt></alt>
+        </image>
+      </images>
+      <image_size>2 Small</image_size>
+      <image_size_specific_width></image_size_specific_width>
+      <image_size_specific_height></image_size_specific_height>
+      <target_blank></target_blank>
+      <movie>
+        <youtube_video>
+          <movie_name></movie_name>
+          <description></description>
+          <id></id>
+          <parameters></parameters>
+        </youtube_video>
+        <paragon_video>
+          <movie_name></movie_name>
+          <description></description>
+          <id></id>
+          <c></c>
+          <d></d>
+        </paragon_video>
+      </movie>
+      <links>
+      </links>
+    </feature>
+  </features>
+  <specs>
+    <admin_description>Migration from S-DB</admin_description>
+    <spec_details>
+      <spec_detail>
+        <spec_node>
+          <spec_node_owner>WS</spec_node_owner>
+          <spec_l1>Receiver / Integrated Amplifier</spec_l1>
+          <spec_l2>Minimum RMS Output Power (8 ohms, 20 Hz-20 kHz)</spec_l2>
+          <spec_l3></spec_l3>
+        </spec_node>
+        <spec_value>60 W + 60 W (0.019% THD)</spec_value>
+      </spec_detail>
+      <spec_detail>
+        <spec_node>
+          <spec_node_owner>WS</spec_node_owner>
+          <spec_l1>Receiver / Integrated Amplifier</spec_l1>
+          <spec_l2>Maximum Power (4 ohms, 1kHz, 0.7% THD, for Europe)</spec_l2>
+          <spec_l3></spec_l3>
+        </spec_node>
+        <spec_value>95 W + 95 W</spec_value>
+      </spec_detail>
+      <spec_detail>
+        <spec_node>
+          <spec_node_owner>WS</spec_node_owner>
+          <spec_l1>Receiver / Integrated Amplifier</spec_l1>
+          <spec_l2>High Dynamic Power/Channel (8/6/4/2 ohms)</spec_l2>
+          <spec_l3></spec_l3>
+        </spec_node>
+        <spec_value>100/120/140/150 W</spec_value>
+      </spec_detail>
+      <spec_detail>
+        <spec_node>
+          <spec_node_owner>WS</spec_node_owner>
+          <spec_l1>Receiver / Integrated Amplifier</spec_l1>
+          <spec_l2>Damping Factor</spec_l2>
+          <spec_l3></spec_l3>
+        </spec_node>
+        <spec_value>210</spec_value>
+      </spec_detail>
+      <spec_detail>
+        <spec_node>
+          <spec_node_owner>WS</spec_node_owner>
+          <spec_l1>Receiver / Integrated Amplifier</spec_l1>
+          <spec_l2>Frequency Response</spec_l2>
+          <spec_l3></spec_l3>
+        </spec_node>
+        <spec_value>10 Hz-100 kHz +/-1.0 dB</spec_value>
+      </spec_detail>
+      <spec_detail>
+        <spec_node>
+          <spec_node_owner>WS</spec_node_owner>
+          <spec_l1>Receiver / Integrated Amplifier</spec_l1>
+          <spec_l2>Total Harmonic Distortion (CD to Sp Out, 20 Hz-20 kHz)</spec_l2>
+          <spec_l3></spec_l3>
+        </spec_node>
+        <spec_value>0.019% (50 W/8 ohms)</spec_value>
+      </spec_detail>
+      <spec_detail>
+        <spec_node>
+          <spec_node_owner>WS</spec_node_owner>
+          <spec_l1>Receiver / Integrated Amplifier</spec_l1>
+          <spec_l2>Signal-to-Noise Ratio (CD)</spec_l2>
+          <spec_l3></spec_l3>
+        </spec_node>
+        <spec_value>99dB (input shorted, 200 mV)</spec_value>
+      </spec_detail>
+      <spec_detail>
+        <spec_node>
+          <spec_node_owner>WS</spec_node_owner>
+          <spec_l1>Receiver / Integrated Amplifier</spec_l1>
+          <spec_l2>Audio In / Out</spec_l2>
+          <spec_l3></spec_l3>
+        </spec_node>
+        <spec_value>8 / 2</spec_value>
+      </spec_detail>
+      <spec_detail>
+        <spec_node>
+          <spec_node_owner>WS</spec_node_owner>
+          <spec_l1>Receiver / Integrated Amplifier</spec_l1>
+          <spec_l2>Digital Input</spec_l2>
+          <spec_l3></spec_l3>
+        </spec_node>
+        <spec_value>Yes (optical / coaxial)</spec_value>
+      </spec_detail>
+      <spec_detail>
+        <spec_node>
+          <spec_node_owner>WS</spec_node_owner>
+          <spec_l1>Receiver / Integrated Amplifier</spec_l1>
+          <spec_l2>Subwoofer Out</spec_l2>
+          <spec_l3></spec_l3>
+        </spec_node>
+        <spec_value>Yes</spec_value>
+      </spec_detail>
+      <spec_detail>
+        <spec_node>
+          <spec_node_owner>WS</spec_node_owner>
+          <spec_l1>Receiver / Integrated Amplifier</spec_l1>
+          <spec_l2>DC out</spec_l2>
+          <spec_l3></spec_l3>
+        </spec_node>
+        <spec_value>Yes</spec_value>
+      </spec_detail>
+      <spec_detail>
+        <spec_node>
+          <spec_node_owner>WS</spec_node_owner>
+          <spec_l1>Receiver / Integrated Amplifier</spec_l1>
+          <spec_l2>Pure Direct</spec_l2>
+          <spec_l3></spec_l3>
+        </spec_node>
+        <spec_value>Yes</spec_value>
+      </spec_detail>
+      <spec_detail>
+        <spec_node>
+          <spec_node_owner>WS</spec_node_owner>
+          <spec_l1>Receiver / Integrated Amplifier</spec_l1>
+          <spec_l2>ToP-ART</spec_l2>
+          <spec_l3></spec_l3>
+        </spec_node>
+        <spec_value>Yes</spec_value>
+      </spec_detail>
+      <spec_detail>
+        <spec_node>
+          <spec_node_owner>WS</spec_node_owner>
+          <spec_l1>Receiver / Integrated Amplifier</spec_l1>
+          <spec_l2>Standby Power Consumption</spec_l2>
+          <spec_l3></spec_l3>
+        </spec_node>
+        <spec_value>0.5W</spec_value>
+      </spec_detail>
+      <spec_detail>
+        <spec_node>
+          <spec_node_owner>WS</spec_node_owner>
+          <spec_l1>Receiver / Integrated Amplifier</spec_l1>
+          <spec_l2>Power Management (Auto Power Standby)</spec_l2>
+          <spec_l3></spec_l3>
+        </spec_node>
+        <spec_value>Yes</spec_value>
+      </spec_detail>
+      <spec_detail>
+        <spec_node>
+          <spec_node_owner>WS</spec_node_owner>
+          <spec_l1>Receiver / Integrated Amplifier</spec_l1>
+          <spec_l2>Dimensions (W x H x D)</spec_l2>
+          <spec_l3></spec_l3>
+        </spec_node>
+        <spec_value>435 x 151 x 387 mm; 17-1/8” x 6” x 15-1/4”</spec_value>
+      </spec_detail>
+      <spec_detail>
+        <spec_node>
+          <spec_node_owner>WS</spec_node_owner>
+          <spec_l1>Receiver / Integrated Amplifier</spec_l1>
+          <spec_l2>Weight</spec_l2>
+          <spec_l3></spec_l3>
+        </spec_node>
+        <spec_value>9.0 kg; 19.8 lbs.</spec_value>
+      </spec_detail>
+    </spec_details>
+    <footer_notes>
+    </footer_notes>
+  </specs>
+  <buy_direct_url></buy_direct_url>
+  <user_registration_permitted>Yes</user_registration_permitted>
+  <category_for_locator></category_for_locator>
+  <valid_from>2014/01/01 0:00:00</valid_from>
+  <valid_until></valid_until>
+  <is_current>Yes</is_current>
+  <keyword>A-S301</keyword>
+  <api>
+  </api>
+</contents>
+</output>

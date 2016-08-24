@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+	    <add id="Globa_Api::hello" title="Hello World" module="Globa_Api" sortOrder="50" resource="Globa_Api::hello"/>
+	    <add id="Globa_Api::hello_manage_items" title="Manage Items" module="Globa_Api" sortOrder="50" parent="Globa_Api::hello" action="global/index" resource="Globa_Api::hello_manage_items"/>
+	    <add id="Globa_Api::hello_configuration" title="Configuration" module="Globa_Api" sortOrder="50" parent="Globa_Api::hello" action="adminhtml/system_config/edit/section/hello" resource="Globa_Api::hello_configuration"/>
+    </menu>
+</config>
